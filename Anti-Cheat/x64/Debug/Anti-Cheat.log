@@ -1,0 +1,37 @@
+﻿  Building 'Anti-Cheat' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Debug\Anti-Cheat.inf
+  Stamping [Version] section with DriverVer=07/04/2021,13.25.8.653
+G:\Projetos\Anti-Cheat\Anti-Cheat\Anti-Cheat.inf : warning 1420: [DefaultInstall]-based INF cannot be processed as Primitive.
+G:\Projetos\Anti-Cheat\Anti-Cheat\Anti-Cheat.inf(25-25): warning 1421: Section [DefaultInstall] should have an architecture decoration.
+G:\Projetos\Anti-Cheat\Anti-Cheat\Anti-Cheat.inf(36-36): warning 1421: Section [DefaultUninstall] should have an architecture decoration.
+G:\Projetos\Anti-Cheat\Anti-Cheat\Anti-Cheat.inf(74-74): warning 1205: Section [MiniFilter.DriverFiles] referenced from DelFiles and CopyFiles directive.
+  Anti-Cheat.c
+G:\Projetos\Anti-Cheat\Anti-Cheat\processprotect.h(12,13): warning C4100: 'RegistrationContext': parâmetro formal não referenciado
+G:\Projetos\Anti-Cheat\Anti-Cheat\processprotect.h(16,8): warning C4101: 'ProcssName': variável local não referenciada
+G:\Projetos\Anti-Cheat\Anti-Cheat\processprotect.h(79,33): warning C4100: 'Information': parâmetro formal não referenciado
+G:\Projetos\Anti-Cheat\Anti-Cheat\processprotect.h(76,8): warning C4100: 'RegistrationContext': parâmetro formal não referenciado
+G:\Projetos\Anti-Cheat\Anti-Cheat\Anti-Cheat.c(14,77): warning C4100: 'RegistryPath': parâmetro formal não referenciado
+G:\Projetos\Anti-Cheat\Anti-Cheat\Anti-Cheat.c(27,33): warning C4100: 'DriverObject': parâmetro formal não referenciado
+G:\Projetos\Anti-Cheat\Anti-Cheat\Anti-Cheat.c(54,14): warning C4996: '_strupr': This function or variable may be unsafe. Consider using _strupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Anti-Cheat.vcxproj -> G:\Projetos\Anti-Cheat\x64\Debug\Anti-Cheat.sys
+  Done Adding Additional Store
+SIGNTASK : SignTool warning : No file digest algorithm specified. Please specify the digest algorithm with the /fd flag. Using /fd SHA256 is recommended and considered more secure than SHA1. Calling signtool with /fd sha1 is equivalent to the previous behavior. In future releases, this parameter will be required. In order to select the hash algorithm used in the signing certificate's signature, use the /fd certHash option.
+  
+  Successfully signed: G:\Projetos\Anti-Cheat\x64\Debug\Anti-Cheat.sys
+  
+  ........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  G:\Projetos\Anti-Cheat\x64\Debug\Anti-Cheat\anti-cheat.cat
+  Done Adding Additional Store
+  Successfully signed: G:\Projetos\Anti-Cheat\x64\Debug\Anti-Cheat\anti-cheat.cat
+  
+SIGNTASK : SignTool warning : No file digest algorithm specified. Please specify the digest algorithm with the /fd flag. Using /fd SHA256 is recommended and considered more secure than SHA1. Calling signtool with /fd sha1 is equivalent to the previous behavior. In future releases, this parameter will be required. In order to select the hash algorithm used in the signing certificate's signature, use the /fd certHash option.
+  
